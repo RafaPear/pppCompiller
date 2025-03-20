@@ -1,0 +1,27 @@
+P16 assembler v1.5 (Feb  9 2024)	main.lst	Sat Mar 15 22:37:47 2025
+
+Sections
+Index   Name            Address   Size
+0       .text           0000      0020 32
+
+Symbols
+Name                    Type      Value       Section
+
+Code listing
+   1 0000 A0 60		MOV R0, #10
+   2 0002 07 B0		MOV R7, R0
+   3 0004 77 80		ADD R7, R7, R0
+   4 0006 81 B3		MOV R1, R7
+   5 0008 87 B0		MOV R7, R1
+   6 000A F7 80		ADD R7, R7, R1
+   7 000C 82 B3		MOV R2, R7
+   8 000E 87 B0		MOV R7, R1
+   9 0010 F7 80		ADD R7, R7, R1
+  10 0012 83 B3		MOV R3, R7
+  11 0014 87 B0		MOV R7, R1
+  12 0016 F7 80		ADD R7, R7, R1
+  13 0018 84 B3		MOV R4, R7
+  14 001A 87 B0		MOV R7, R1
+  15 001C F7 80		ADD R7, R7, R1
+  16 001E 85 B3		MOV R5, R7
+  16           	

@@ -1,0 +1,6 @@
+let a = 10;
+let a2 = a+a;
+let a3 = a2+a2;
+let a4 = a2+a2;
+let a5 = a2+a2;
+let a6 = a2+a2;
